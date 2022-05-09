@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 0px 0px 5px 5px ;
+}
+header{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    height: 10vh;
+    float: right;
+    margin-right: 70px;
+} 
+nav li{
+    list-style: none;
+    margin: 10px;  
+}
+li{
+    list-style: none;
+}
+h1{
+    width: 40%;
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+button{
+    cursor: pointer;
+}
+.div{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.btn{
+    color: white;
+    background-color: darkmagenta;
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid silver;
+}
+.btw{
+    width: 15%;
+    background-color: rgba(128, 0, 128, 0.329);
+    color: white;
+    padding: 5px; 
+    border-radius: 10px;
+    border: none;
+    border: 1px solid silver;
+}
+.Top-most{
+    height: 70vh;
+}
+
+.Top{
+    background-color: fuchsia;
+    height: 20vh;
+    margin-top: 50px;
+    text-align: center;
+}
+.Top h5{
+    width: 70%;
+    margin: auto;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.Top p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.White .card{
+    background-color: whitesmoke;
+    min-height: 40vh;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.card{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+   
+}
+.card h2{
+    color: fuchsia;
+    padding-left: 5px;
+}
+.card-a{
+    width: 50%;
+    border-left: 3px solid fuchsia;
+}
+.card-b{
+    width: 50%;
+    border-left: 3px solid fuchsia;
+}
+.card-c{
+    width: 30%;
+    border-left: 3px solid fuchsia;
+}
+.purple{
+    background-color: fuchsia;
+    height: 20vh;
+    text-align: center;
+}
+.READ .bx{
+    font-size: 30px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+.purple h5{
+    width: 70%;
+    margin: auto;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.purple p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.THERAPY{
+    background-color: whitesmoke;
+    min-height: 60vh;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.READ{
+    display: flex;
+    padding-top: 20px;   
+}
+.THERAPY button{
+    width: 23%;
+    padding: 10px;
+    background-color: darkmagenta;
+    color: white;
+    margin-top: 60px;
+    margin-left: 33%;
+    border-radius: 10px;
+     border: none;
+}
+.contact{
+    background-color: rgb(16, 7, 22);
+    color: white;
+    min-height: 95vh;
+}
+.contact h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 70px;
+}
+.contact p{
+    text-align: center;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.inner{
+    width: 35%;
+    margin-left: 35%;
+}
+.form{
+    width: 50%;   
+}
+.form p{
+    margin-top: -10px;
+    width: 180%;
+   text-align: start;
+   padding-top: 5px;
+}
+.box{
+    width: 200%;
+ padding-top: 10px;
+ 
+}
+.form button{
+    width: 70%;
+    height: 3vh;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+.span{
+    width: 200%;
+    padding: 10px;
+}
+.Touch{
+    background-color: white;
+    min-height: 80vh;
+}
+.Touch h2{
+    Padding-top: 20px;
+}
+.max{
+    padding-top: 70px;
+  padding-left: 70px;
+}
+.max button{
+    width: 100%;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.min{
+    padding-right: 70px;
+}
+.li{
+    padding-top: 10px;
+}
+iframe{
+    padding-top: 70px;
+    height: 50vh;
+    width: 100%;  
+}
+.Touch h2{
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 70px;
+}
+.Touch-row{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color:  rgb(16, 7, 22);
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    padding-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        margin: 0px !important;
+        box-shadow: 0px !important ;
+    }
+    .btn, .btw{
+        width: 100%;
+        margin-left: -40px;
+    }
+    .btw{
+        margin-top: 10px;
+    }
+    h1{
+        width: 70%;
+        margin-left: 30px;
+    }
+    .card, .READ, .Touch-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-a{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .card-b{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .card-c{
+        width: 90%;margin-top: 20px;
+    }
+    .THERAPY button{
+        width: 70%;
+        padding: 10px;
+        background-color: darkmagenta;
+        color: white;
+        margin: 60px 0px;
+        margin-left: 20%;
+    }
+    .inner{
+        width: 65%;
+        margin-left: 12%;
+    }
+    iframe{
+        padding-top: 70px;
+        height: 50vh;
+        width: 100%; 
+        margin-left:50px; 
+    }
+}
